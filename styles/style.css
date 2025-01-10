@@ -57,8 +57,8 @@ body {
 
 .vision {
   width: 1280px;
-  height: 765px;
-  margin: 0 auto;
+  /* height: 765px; */
+  margin: 80px auto;
 }
 
 .vision > h2 {
@@ -107,7 +107,7 @@ body {
   font-weight: 400;
 }
 
-/* visiob-card-button */
+/* vision-card-button */
 
 .vcard-btn1-color {
   background: rgb(84, 144, 245);
@@ -153,4 +153,115 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* quote-section */
+
+.quote {
+  margin: 30px auto 30px;
+  width: 1280px;
+  height: 256px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote .quote-info {
+  background-image: url("../assets/quote-bg.png");
+  background-position: top left;
+  background-repeat: no-repeat;
+  width: 1232px;
+  height: 200px;
+}
+
+.quote-info .quote-des {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 26px;
+}
+
+.quote-info .quote-writer {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.quote-info .writer-designation {
+  color: rgba(14, 14, 14, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+
+/* news-section */
+
+.news {
+  margin: 80px auto;
+  width: 1280px;
+  height: 120px;
+}
+
+.news .news-title {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.news .news-des {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.news .news-card {
+  margin: 0 auto 30px;
+  width: 1280px;
+  height: 402px;
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.news .news-card-info {
+  width: 1180px;
+  height: 402px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.satellite .sat-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: -5px;
+}
+
+.satellite p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.satellite .read-more {
+  width: 139px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.news-card-info > img {
+  border-radius: 24px;
+  margin: 0 32px;
 }
