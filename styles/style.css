@@ -11,8 +11,8 @@ body {
 /* button-hover-effect */
 
 button:hover{
-  background-color: rgb(0, 135, 102);
-  color: rgb(230, 255, 245);
+  background-color: #083D77;
+  color: #e4eef3;
   cursor: pointer;
   box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.4);
 }
@@ -129,7 +129,7 @@ button:hover{
 }
 
 .vcard-btn1-color:hover{
-  background-color: rgb(65, 84, 252);
+  background-color: #304C89;
   box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.4);
 }
 
@@ -138,7 +138,7 @@ button:hover{
 }
 
 .vcard-btn2-color:hover{
-  background-color: green;
+  background-color: #004F2D;
   box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.4);
 }
 
@@ -147,7 +147,7 @@ button:hover{
 }
 
 .vcard-btn3-color:hover{
-  background-color: rgb(255, 165, 0);
+  background-color: #E24E1B;
   box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.4);
 }
 
@@ -337,6 +337,8 @@ button:hover{
   background: rgb(255, 255, 255);
   text-align: center;
   margin-bottom: 32px;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .donate input::placeholder {
@@ -443,7 +445,7 @@ button:hover{
 }
 
 .newsletter button:hover{
-  background-color: rgb(0, 135, 102);
+  background-color: #FF0000;
   color: rgb(230, 255, 245);
   cursor: pointer;
   box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.4); 
