@@ -8,6 +8,15 @@ body {
   background-color: #f5f5f5;
 }
 
+/* button-hover-effect */
+
+button:hover{
+  background-color: rgb(0, 135, 102);
+  color: rgb(230, 255, 245);
+  cursor: pointer;
+  box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.4);
+}
+
 /* banner-section */
 
 .banner {
@@ -47,6 +56,12 @@ body {
   border-radius: 8px;
   border: none;
   background: rgb(0, 106, 80);
+}
+
+.banner button:hover{
+  background-color: rgb(0, 135, 102);
+  color: rgb(230, 255, 245);
+  box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.4);
 }
 
 .banner .banner-info {
@@ -113,13 +128,29 @@ body {
   background: rgb(84, 144, 245);
 }
 
+.vcard-btn1-color:hover{
+  background-color: rgb(65, 84, 252);
+  box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.4);
+}
+
 .vcard-btn2-color {
   background: rgb(9, 161, 92);
+}
+
+.vcard-btn2-color:hover{
+  background-color: green;
+  box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.4);
 }
 
 .vcard-btn3-color {
   background: rgb(255, 194, 57);
 }
+
+.vcard-btn3-color:hover{
+  background-color: rgb(255, 165, 0);
+  box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.4);
+}
+
 
 .vcard-info button {
   width: 122px;
@@ -344,9 +375,17 @@ body {
   background: rgb(198, 228, 214);
 }
 
-/* subscriber-section */
+.amount .taka-100:hover, .taka-200:hover, .taka-500:hover, .taka-1000:hover{
+  color: rgb(198, 228, 214);
+  cursor: pointer;
+  background-color: rgb(0, 106, 80);
+  border-color: rgb(150, 200, 180);
+  box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.4); 
+}
 
-.subscriber {
+/* newsletter-section */
+
+.newsletter {
   margin: 10px auto 50px;
   border-radius: 24px;
   background: rgb(198, 228, 214);
@@ -358,7 +397,7 @@ body {
   text-align: center;
 }
 
-.subscriber .subscriber-title {
+.newsletter .newsletter-title {
   width: 622px;
   height: 48px;
   color: rgb(14, 14, 14);
@@ -368,7 +407,7 @@ body {
   margin-bottom: 20px;
 }
 
-.subscriber p {
+.newsletter p {
   width: 622px;
   height: 48px;
   color: rgba(14, 14, 14, 0.7);
@@ -376,7 +415,7 @@ body {
   font-weight: 400;
 }
 
-.subscriber #sub-input {
+.newsletter #news-input {
   border: none;
   border-radius: 8px 0px 0px 8px;
   background: rgb(255, 255, 255);
@@ -386,13 +425,13 @@ body {
   padding-left: 40px;
 }
 
-.subscriber-info ::placeholder {
+.newsletter-info ::placeholder {
   color: rgba(14, 14, 14, 0.3);
   font-size: 16px;
   font-weight: 400;
 }
 
-.subscriber button {
+.newsletter button {
   border-radius: 0px 8px 8px 0px;
   background: rgb(0, 106, 80);
   width: 155px;
@@ -401,6 +440,13 @@ body {
   color: rgb(255, 255, 255);
   font-size: 18px;
   font-weight: 600;
+}
+
+.newsletter button:hover{
+  background-color: rgb(0, 135, 102);
+  color: rgb(230, 255, 245);
+  cursor: pointer;
+  box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.4); 
 }
 
 .form-merger {
@@ -412,8 +458,9 @@ body {
   border-radius: 8px 8px 8px 8px;
 }
 
-.subscriber-info #last-p {
+.newsletter-info #last-p {
   color: rgba(14, 14, 14, 0.7);
   font-size: 16px;
   font-weight: 400;
+  margin-top: 30px;
 }
